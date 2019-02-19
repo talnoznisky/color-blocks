@@ -4,9 +4,6 @@ var divs = document.getElementsByClassName("square")
 const container = document.getElementById("container")
 
 
-
-
-
 function getRandomColor(){
 return colors[Math.floor(Math.random() * Math.floor(5))]
 }
