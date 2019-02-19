@@ -66,6 +66,6 @@ window.setInterval(randomColorReassignment, 7);
 I want to build little pages that invite the viewer to think of the internet as an aesthetic medium. I know it's much more than that, but it's cool to think about how it's designed to structure and render things visually. The aesthetic dimension is so significant!
 
 ## Acknowledgments
-[Jonah Adels](http://environment.yale.edu/news/article/remembering-jonah-adels/)
-[Gerhard Richter](https://news.artnet.com/art-world/gerhard-richter-color-charts-turn-50-322319)
+[Jonah Adels](http://environment.yale.edu/news/article/remembering-jonah-adels/)</br>
+[Gerhard Richter](https://news.artnet.com/art-world/gerhard-richter-color-charts-turn-50-322319)</br>
 Laurel Schwulst's ["My website is a shifting house next to a river of knowledge"](https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)
