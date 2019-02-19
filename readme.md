@@ -15,8 +15,9 @@ margin: 1px;
 }
 ```
 
-Turns into this before coloring it in:
-![grid](assets/blank-squares.png)
+Looks like this before coloration:
+
+![](assets/squares.png)
 
 ## Javascript practice
 
