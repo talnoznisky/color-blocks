@@ -16,7 +16,7 @@ margin: 1px;
 ```
 
 Turns into this before coloring it in:
-![grid](assets/blank-squares.png)
+![grid](assets/blank-squares.png | width=100)
 
 ## Javascript practice
 
