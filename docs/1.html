@@ -4,16 +4,14 @@
 <meta charset="utf-8">
 <!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="css/master.css">
+<link rel="stylesheet" href="../css/master.css  ">
 <title>color charts</title>
 </head>
 <body>
 <div id="container" class="container justify-content-center">
-<p>
-  Choose a swatch:
-</p>
+<!-- <script src="https://talnoznisky.github.io/color-blocks/script.js"></script> -->
+<script src="../script.js"></script>
 </div>
-<script src="script.js"></script>
 </body>
 <!--The starting point are the four pure colours
   red, yellow, green and blue; their in-between shades
@@ -23,7 +21,11 @@
   - Gerhard Richter
 -->
 <script type="text/javascript">
-window.addEventListener("load", generateIndex())
-
+var i = 1;
+window.addEventListener("load", writeSquares());
+window.addEventListener("load", onLoadColorSet());
+window.setInterval(randomColorReassignment, 20);
+window.setInterval(randomColorReassignment, 17);
+window.setInterval(randomColorReassignment, 7);
 </script>
 </html>
