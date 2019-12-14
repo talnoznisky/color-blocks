@@ -14,17 +14,11 @@ body{
   margin: 0px 0px 3px 0px;
 }
 
-.container{
-  margin-top: 1em;
-  width: 60%;
-
-}
 .row{
   display: flex;
+  width: 100%;
 }
+
 .square{
-  border-radius: 2px;
-  /* border: 1px solid lightgray; */
-  padding-top: 15%;
-  margin: 1px;
+  padding-top: 8%;
 }

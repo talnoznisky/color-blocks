@@ -1,6 +1,6 @@
 const divs = document.getElementsByClassName("square")
 let loaded = false;
-let a
+var a
 
 function getRandomSquare(){
   return divs[Math.floor(Math.random() * Math.floor(divs.length))]
@@ -24,17 +24,11 @@ function writeSquares(){
   }
 }
 
-function random_rgb() {
-    var o = Math.round, r = Math.random, s = 255;
-    return 'rgb(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) +')';
-}
-
-
 colorSet = () => {
   let url = ''
   let colors = null
-  !loaded ? url = 'https://www.thecolorapi.com/scheme?rgb=RGB:'+random_rgb()
-  : url = 'https://www.thecolorapi.com/scheme?mode=analogic-complement&rgb='+event.target.style.background
+  !loaded ? url = 'https://www.thecolorapi.com/scheme?rgb=RGB:(250,127,82)'
+  : url = 'https://www.thecolorapi.com/scheme?mode=analogic&rgb='+event.target.style.background
   clearInterval(a)
   fetch(url)
     .then((res) => res.json())
@@ -47,6 +41,11 @@ colorSet = () => {
     }
   )
 }
+
+
+
+
+// var myInterval = setInterval(randomColorReassignment(getRandomColor(colors)), 600);
 
 function randomColorReassignment(color){
   getRandomSquare().style.background = color;
